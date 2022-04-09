@@ -1,0 +1,90 @@
+
+
+@media(min-width:900px){
+    .container {
+        width:75% !important;
+    }
+}
+
+nav{
+    background-color: #004C4C !important;
+}
+.navbar {
+    padding: 0 !important;
+}
+
+.navbar a{
+    color: azure !important;
+    padding: 10px;
+}
+
+body{
+    background-color: #D5DFE5;
+
+}
+
+
+
+
+
+
+.button{
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    background-color: #004C4C;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5%;
+    text-decoration: none !important;
+}
+
+.button:hover {
+    background-color: azure; /* Green */
+    color:#004C4C;
+    border: 1px solid #004C4C;
+}
+
+.zoom {
+    transition: transform .8s; 
+  
+}
+
+.zoom:hover {
+    transform: scale(1.05); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    border: 1px solid #004C4C;
+    text-decoration: unset !important;
+}
+
+.form-control:focus { 
+
+    border-color: #004C4C !important;
+    border-width: 1px !important;
+    box-shadow: 0 0 0 0 !important;
+}
+
+#post {
+    color: black !important;
+    text-decoration: none !important;
+}
+
+#edit {
+    color:white !important;
+}
+
+.dropdown-menu{
+    color: #004C4C !important;
+
+}
+
+.nav-link{
+    padding:20px !important;
+}
+
+
