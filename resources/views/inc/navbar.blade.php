@@ -2,7 +2,7 @@
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
     <span style="color:white;">Menu</span> 
     </button>
-  <a class="navbar-brand" href="/">Food.com</a>
+  <a class="navbar-brand" href="/">KhanaKhajana</a>
 
   <div class="collapse navbar-collapse" id="navbarTogglerDemo03" style="color:aliceblue">
     <ul class="navbar-nav">
