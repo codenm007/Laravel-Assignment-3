@@ -9,7 +9,7 @@ class PagesController extends Controller
     
 
         public function index(){
-            $title='Welcome to Food.com!';
+            $title='Welcome to KhanaKhajana';
             return view('pages.index')->with('title',$title);
         }
 
