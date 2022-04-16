@@ -48,7 +48,7 @@ class PostsController extends Controller
         $this->validate($request,[
             'title'=>'required',
             'body'=>'required',
-           // 'cover_image'=>'image|mimes:jpeg,jpg,png,bmp,gif,svg|nullable|max:1999'
+            'cover_image'=>'mimes:jpeg,jpg,png,bmp,gif,svg|nullable|max:1999',
         ]);
         //hanling file upload
             if($request->hasFile('cover_image')){
@@ -60,10 +60,9 @@ class PostsController extends Controller
                 $fileNameToStore = $filename.'_'.time().'.'.$extension;
                 $path = $request->file('cover_image')->storeAs('public/cover_image',$fileNameToStore);
             }else{
-                $fileNameToStore = 'https://res.cloudinary.com/dqpurfmpd/image/upload/v1650082007/receipe/Food-Additives_Featured-Image_xgwfls.jpg';
+                $fileNameToStore = 'noimage.jpeg';
             }
 
-            $request->file('cover_image')->store('images');
             $post=new Post();
             $post->title=$request->input('title');
             $post->body=$request->input('body');

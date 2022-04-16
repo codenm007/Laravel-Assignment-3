@@ -2,7 +2,7 @@
 
 @section('content')
 <br>
-{!! Form::open(['action' => 'PostsController@store','enctype'=>'multipart/form-data']) !!}
+{!! Form::open(['action' => 'PostsController@store',"enctype"=>"multipart/form-data"]) !!}
     
 <div class="form-group">
     

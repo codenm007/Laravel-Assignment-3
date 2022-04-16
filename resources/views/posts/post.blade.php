@@ -2,9 +2,9 @@
 
 @section('content')
 <br>
-<h1>{{$post->title}} iklkk</h1>
+<h1>{{$post->title}}</h1>
 
-<img src="{{$post->cover_image}}" />
+<img style="width: 100%; height: 50vh" src="{{ asset('/storage/cover_image/'.$post->cover_image) }}" />
 <p>{{$post->body}}</p>
 <hr>
 <small>Written by {{$post->user->name}} on {{$post->created_at}}</small>
