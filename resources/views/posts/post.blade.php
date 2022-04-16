@@ -2,7 +2,9 @@
 
 @section('content')
 <br>
-<h1>{{$post->title}}</h1>
+<h1>{{$post->title}} iklkk</h1>
+
+<img src="{{$post->cover_image}}" />
 <p>{{$post->body}}</p>
 <hr>
 <small>Written by {{$post->user->name}} on {{$post->created_at}}</small>

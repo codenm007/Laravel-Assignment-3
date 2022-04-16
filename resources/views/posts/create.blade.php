@@ -13,7 +13,7 @@
     {{Form::label('body', 'Body')}}
     {{ Form::textarea('body', null, ['class' => 'form-control']) }}
     <br>
-    {!! Form::file('cover_image') !!}
+    {{ Form::file('cover_image') }}
    {{Form::submit('Submit',['class'=>'button float-md-right'])}}
 
 </div>

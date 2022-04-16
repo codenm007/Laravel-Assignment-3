@@ -9,7 +9,7 @@
 <a href="posts/{{$post->id}}" id="post"><div class="card zoom">
             <div class="card-body">
             <h5 class="card-title">{{$post->title}}</h5>
-              <p class="card-text">written on {{$post->created_at}}</p>
+              <p class="card-text">written on uui {{$post->created_at}}</p>
             </div>
           </div>
         </a>
