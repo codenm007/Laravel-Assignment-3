@@ -12,7 +12,7 @@
                         <div class="card-body">
                           <img style="width: 100%; height: 50vh" src="{{ asset('/storage/cover_image/'.$post->cover_image) }}" />
                         <h5 class="card-title">{{$post->title}}</h5>
-                          <p class="card-text">written on ii {{$post->created_at}}</p>
+                          <p class="card-text">written on {{$post->created_at}}</p>
                         </div>
                       </div>
                     </a>
