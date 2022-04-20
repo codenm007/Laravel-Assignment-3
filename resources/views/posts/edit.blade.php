@@ -5,7 +5,7 @@
 {!! Form::open(['action' => ['PostsController@update',$post->id]]) !!}
     
 <div class="form-group">
-    
+     
     {{Form::label('title', 'Title')}}
     
     {{ Form::text('title',$post->title, ['class'=>'form-control']) }}
